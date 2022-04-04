@@ -77,6 +77,13 @@ const completionSpec: Fig.Spec = {
       ],
     },
     {
+      name: "lint",
+      description: "Runs ESLint for all files in the pages, components, and lib directories.",
+      icon,
+      args: dirArgument,
+      options: hostPortOptions,
+    },
+    {
       name: "telemetry",
       description: "Allows you to control Next.js' telemetry collection",
       icon,
